@@ -54,7 +54,6 @@ namespace TDAmeritradeApiLogin
                 }
                 else
                 {
-
                 }
 
             }
@@ -72,7 +71,6 @@ namespace TDAmeritradeApiLogin
 
                         if (!String.IsNullOrWhiteSpace(code[1].ToString()))
                         {
-
                             realCode = HttpUtility.UrlDecode(code[1].ToString());
                             break;
                         }
@@ -81,7 +79,6 @@ namespace TDAmeritradeApiLogin
                     {
                         break;
                     }
-
                 }
                 catch
                 {
