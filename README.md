@@ -6,6 +6,4 @@ You will still need to create an account and generate an App ID on the API site:
 
 Once you have your App ID, update the 'AppID' variable in the 'Constants' class.
 
-A version of 'chromedriver' has been included in the Debug bin for version 83 of Chrome, you may need to update this driver to match your current version of Google Chrome.
-
-The most recent version of the 'chromedriver.exe' can be found below: https://chromedriver.chromium.org/downloads
+'Chrome Driver' and Google Chrome are required. The most recent version of the 'chromedriver.exe' can be found below: https://chromedriver.chromium.org/downloads
