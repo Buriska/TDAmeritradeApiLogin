@@ -1,4 +1,4 @@
-Small Winforms application to streamline login & token management for the TD Ameritrade API
+Winforms application to streamline login & token management for the TD Ameritrade API
 
 This application automates the TD Ameritrade API Login process using Selenium to handle browser actions in the background. The application handles the login process, two-factor authentication, token refreshment, and TD Ameritrade account information. The application is intended to provide you with a template application that can be used to quickly get your automated trading up and running.
 
