@@ -27,8 +27,6 @@ namespace TDAmeritradeApiLogin
 
             IWebDriver driver = new ChromeDriver(driverService, options);
 
-
-            //https://auth.tdameritrade.com/auth?response_type=code&redirect_uri=https%3A%2F%2F127.0.0.1&client_id=SOROSAPI6%40AMER.OAUTHAP
             string loginUrl = String.Format("https://auth.tdameritrade.com/auth?response_type=code&redirect_uri={0}&client_id={1}", HttpUtility.UrlEncode(Constants.RedirectURL), HttpUtility.UrlEncode(Constants.AppID));
             string[] code;
             string realCode = "";
